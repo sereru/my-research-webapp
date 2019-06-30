@@ -126,4 +126,4 @@ MEDIA_URL = '/media/'
 
 # Pythonanywhere用の設定を追加
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-ALLOWED_HOSTS = ['localhost', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.01', '.pythonanywhere.com']
