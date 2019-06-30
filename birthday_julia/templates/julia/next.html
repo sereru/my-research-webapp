@@ -1,0 +1,15 @@
+{% load static %}
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css"
+        href="{% static 'julia/css/style.css'%}"/>
+</head>
+<body>
+    あなたのjulia集合だよ
+    <p></p>
+    <img src="{% url 'analysis_app:img_plot' %}" width = 900 height = 600>
+    <p><a href="{% url 'analysis_app:index' %}">back</a></p>
+</body>
+</html>

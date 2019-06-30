@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+</head>
+<body>
+    <table>
+    <from action="{% url 'index' %}" method="POST">
+        {% csrf_token %}
+        {{ from.as_table }}
+        <tr><td></td><td><input type="submit" value="click"></td></tr>
+    </from>
+    </table>
+    <hr>
+    <p>{{Img}}</p>
+</body>
+</html>

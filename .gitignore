@@ -1,0 +1,7 @@
+*.pyc
+*~
+__pycache__
+myspace
+db.sqlite3
+birthday_julia/static
+.DS_Store
